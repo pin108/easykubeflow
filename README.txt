@@ -8,7 +8,7 @@ System Requirements:
 
 Installation Steps:
 1. Ensure your system meets the RAM and CPU requirements mentioned above.
-2. Clone this repository: `git clone <repository_url>`
+2. Clone this repository: `git clone https://github.com/pin108/easykubeflow.git`
 3. Navigate to the cloned directory: `cd manifests`
 4. Run the installation script: `sudo chmod +x install.sh && ./install.sh`
 5. Follow the on-screen prompts and wait for the installation to complete.
