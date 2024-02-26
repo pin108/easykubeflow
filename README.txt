@@ -15,6 +15,10 @@ Installation Steps:
 6. Check the progress of Kubeflow installation using `kubectl get pods -A`.
 
 
+Note
+- Edit common/dex/base/config-map.yaml and fill the relevant field with the hash of the password you chose:
+
+
 Important Note:
 - The installation process may take some time depending on your system specifications and cluster setup.
 - Ensure that you have the necessary permissions and access to your Kubernetes cluster before running the script.
