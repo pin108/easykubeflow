@@ -44,6 +44,9 @@ sleep 5
 git clone https://github.com/kubeflow/manifests.git
 cd manifests
 
+echo "installing kustomize"
+sudo snap install kustomize
+
 # Run Kubeflow installation
 # Install with a single command
 while ! kustomize build example | kubectl apply -f -; do
